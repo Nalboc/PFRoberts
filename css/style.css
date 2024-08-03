@@ -96,7 +96,7 @@ footer section{
         justify-content: center;
         align-items: center;
     }
-    main section{
+    main section:not(.section-article){
         width: 50%;
         height: 100%;
         display: flex;
