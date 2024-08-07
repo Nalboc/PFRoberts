@@ -240,12 +240,20 @@ footer section{
 }
 
 /*Pagina de Novedades*/
-
-.main-novedades div{
-    background-color: white;
-    width: 80%;
-    height: 5px;
+.main-novedades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 125rem;
 }
 .main-novedades section{
- 
+    width: 50%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 100px 850px;
+}
+.main-novedades section div{
+    height: .625rem;
+}
+.main-novedades section h1, h2{
+    color: #041026;
 }
