@@ -10,7 +10,7 @@ Azul fuerte #041026
 Azul suave #3264A6
 */
 body{
-    background-color: #FE9A04;
+    background: linear-gradient(to top, #041026, #FE9A04);
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -82,6 +82,7 @@ footer{
     text-align: center;
     height: 100%;
     width: 100vw;
+    color: white;
 }
 footer section{
     font-size: 20px;
