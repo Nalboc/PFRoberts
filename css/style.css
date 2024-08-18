@@ -244,19 +244,48 @@ footer section {
 
 /*Pagina de Novedades*/
 .main-novedades {
-  height: 2000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.main-novedades section {
-  width: 50%;
+.main-novedades article {
+  height: 500px;
+  width: 500px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px 100px 850px;
+  grid-template-rows: repeat(2, 1fr);
 }
-.main-novedades section div {
-  height: 0.625rem;
+.main-novedades article div {
+  background-color: white;
+  height: 5px;
+  width: 80%;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  align-self: start;
+  justify-self: center;
 }
-.main-novedades section h1, .main-novedades section h2 {
-  color: #041026;
+.main-novedades article h1, .main-novedades article h2 {
+  color: black;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  align-self: start;
+  justify-self: center;
+  margin-top: 5px;
+}
+.main-novedades article p {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  align-self: start;
+  justify-self: center;
+}
+.main-novedades article:nth-child(2) {
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+.main-novedades article:nth-child(2) div:first-child {
+  grid-row: 3/4;
+  align-self: end;
 }
 
 /*Pagina Sobre-mi*/
