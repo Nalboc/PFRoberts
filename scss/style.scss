@@ -166,6 +166,19 @@ footer{
     }
   }
 }
+@media(max-width:500px){
+  .main-novedades{
+    article{
+      width: 50%;
+      h1,h2{
+        font-size: 15px;
+      }
+      p{
+        font-size: 10px;
+      }
+    }
+  }
+}
 @media(max-width:497px){
   main:not(.main-index){
     width: 300px;
@@ -203,7 +216,7 @@ footer{
   }
 }
 @media(max-width:341px){
-  main:not(.main-juegos){
+  .main-index{
     height: 25em;
   }
   main{
@@ -272,15 +285,15 @@ footer{
   justify-content: center;
   align-items: center;
   article{
-    height: 500px;
-    width: 500px;
+    height: 31.25rem;
+    width: 60%;
     display: grid;
       grid-template-columns:1fr;
       grid-template-rows: repeat(2,1fr);
       div{
         background-color: white;
         height: 5px;
-        width: 80%;
+        width: 100%;
         grid-row: 1/2;
         grid-column: 1/2;
         align-self: start;
