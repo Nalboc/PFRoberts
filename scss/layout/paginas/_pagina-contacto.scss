@@ -1,0 +1,40 @@
+.main-contacto{
+  height: 100vh;
+    @include grid(repeat(3,1fr),repeat(1,30rem));
+    section{
+      display: block;
+      grid-column: 3/4;
+      grid-row: 1/2;
+      text-align: center;
+      align-content: center;
+    }
+    .redes{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      width: 300px;
+      height: 12.5rem;
+    img{
+      width: 40px;
+      height: 40px;
+    }
+    div{
+      background-color: transparent;
+      @include flex(column,start,center,none);
+      font-size: 16px;
+      padding: 10px;
+      div{
+        flex-direction: row;
+        gap: 10px;
+      }
+    } 
+    .p{
+      font-size: 16px;
+    }
+    }
+    .info{
+      background-color: map-get($colores, azul);
+      height: 70%;
+      border-radius: 50px 0px 0px 50px;
+      align-self: center;
+    }
+}

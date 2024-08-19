@@ -1,0 +1,22 @@
+@media(max-width:341px){
+    .main-index{
+      height: 25em;
+    }
+    main{
+      section{
+        height: 100%;
+        div{
+          font-size: .625rem;
+        }
+      }
+    }
+    header{
+      div{
+        nav{
+          a{
+            font-size: .625rem;
+          }
+        }
+      }
+    }
+}

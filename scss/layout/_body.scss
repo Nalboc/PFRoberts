@@ -1,0 +1,6 @@
+body{
+    background: linear-gradient(to top, map-get($colores,azul), map-get($colores,naranja));
+    width: 100%;
+    height: 100%;
+    @include flex(column,none,none,150px);
+}

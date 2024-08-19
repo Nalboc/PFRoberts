@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+    @include flex(column,none,center,1.875rem);
+    div{
+        width: 100%;
+        height: 50px;
+        box-shadow: black 0px 0px 10px 0px;
+        @include flex(none,center,center,none);
+        nav{
+            a{
+                color: black;
+                font-size: 1.25rem;
+                margin: 0rem .625rem 0rem .625rem;
+                text-decoration: none;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+}
