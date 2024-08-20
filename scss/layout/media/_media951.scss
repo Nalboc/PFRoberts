@@ -4,41 +4,21 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      section{
-        div{
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          width: 100%;
-          font-size: 1.875rem;
-          border-radius: 3.125rem 3.125rem 0rem 0rem;
-          &:nth-child(2){
-            border-radius: 0rem 0rem 3.125rem 3.125rem;
-            p{
-              margin: 20px 0px 20px 0px;
-            }
-          }
-          p{
-            width: 50%;
-          }
-        }
-      }
-      .section-article{
+    }
+    .section-article{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      article{
         width: 50%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        article{
+        img{
           width: 50%;
-          img{
-            width: 50%;
-            height: 80%;
-            object-fit: contain;
-          }
+          height: 80%;
+          object-fit: contain;
         }
       }
     }
@@ -53,5 +33,14 @@
         background-color: map-get($colores, azul);
         border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
       }
+    }
+    .div1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      font-size: 30px;
+      border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
     }
 }
