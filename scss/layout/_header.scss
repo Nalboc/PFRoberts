@@ -18,4 +18,10 @@ header{
             }
         }
     }
+    h1{
+        animation-name: titulo;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-duration: 2000ms;
+    }
 }
