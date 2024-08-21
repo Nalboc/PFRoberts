@@ -1,16 +1,16 @@
 @media(max-width:497px){
-    main:not(.main-index){
-      width: 300px;
-      align-self: center;
-    }
-    main{
-        .section-article{
-          width: 100%;
-      }
+  main:not(.main-index){
+    width: 300px;
+    align-self: center;
+  }
+  main{
       .section-article{
-        article{
-          font-size: 12px;
-        }
+        width: 100%;
+    }
+    .section-article{
+      article{
+        font-size: 12px;
       }
     }
+  }
 }

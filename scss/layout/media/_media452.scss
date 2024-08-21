@@ -1,20 +1,20 @@
 @media(max-width:452px){
-    main{
-      height: 45em;
-      section{
-        height: 70%;
-        div{
-          font-size: .9375rem;
-        }
-      }
-    }
-    header{
+  main{
+    height: 45em;
+    section{
+      height: 70%;
       div{
-        nav{
-          a{
-            font-size: .75rem;
-          }
+        font-size: .9375rem;
+      }
+    }
+  }
+  header{
+    div{
+      nav{
+        a{
+          font-size: .75rem;
         }
       }
     }
+  }
 }

@@ -1,4 +1,4 @@
-@keyframes titulo {
+@keyframes colores {
   0% {
     color: black;
   }
@@ -47,12 +47,6 @@ header div nav a {
 }
 header div nav a:hover {
   color: red;
-}
-header h1 {
-  animation-name: titulo;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-duration: 2000ms;
 }
 
 body {
@@ -269,6 +263,13 @@ footer section {
 }
 .div2 p {
   padding: 30px;
+}
+
+.colores {
+  animation-name: colores;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2000ms;
 }
 
 @media (max-width: 951px) {
