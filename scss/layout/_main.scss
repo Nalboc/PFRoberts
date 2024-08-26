@@ -1,7 +1,7 @@
 main{
   width: 100%;
   color: white;
-  section{
+  section:not(.main-sobremi section){
     width: 100%;
     height: 100%;
     @include grid(1fr 6.25rem 1fr,500px);

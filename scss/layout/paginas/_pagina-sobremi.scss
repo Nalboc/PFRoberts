@@ -1,11 +1,12 @@
 .main-sobremi{
+  height: 34.375rem;
   display: flex;
   justify-content: center;
   section{
-    width: 31.25rem;
-    height: 37.5rem;
+    width: 40%;
+    height: 100%;
     article{
-      width: 31.25rem;
+      width: 100%;
       @include flex(column,center,center,none);
       text-align: center;
       img{
