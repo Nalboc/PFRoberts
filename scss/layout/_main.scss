@@ -7,5 +7,12 @@ main{
     @include grid(1fr 6.25rem 1fr,500px);
     justify-items: center;
     align-items: center;
+    div{
+      p{
+        strong{
+          font-weight: normal;
+        }
+      }
+    }
   }
 }

@@ -73,6 +73,9 @@ main section {
   justify-items: center;
   align-items: center;
 }
+main section div p strong {
+  font-weight: normal;
+}
 
 footer {
   text-align: center;
