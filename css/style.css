@@ -64,7 +64,7 @@ main {
   width: 100%;
   color: white;
 }
-main section:not(.main-sobremi section) {
+main section {
   width: 100%;
   height: 100%;
   display: grid;
@@ -180,6 +180,7 @@ footer section {
   justify-content: center;
 }
 .main-sobremi section {
+  display: block;
   width: 40%;
   height: 100%;
 }
@@ -216,6 +217,8 @@ footer section {
   grid-row: 1/2;
   width: 300px;
   height: 12.5rem;
+  display: flex;
+  justify-self: start;
 }
 .main-contacto .redes img {
   width: 40px;
@@ -243,6 +246,11 @@ footer section {
   height: 70%;
   border-radius: 50px 0px 0px 50px;
   align-self: center;
+  display: block;
+}
+.main-contacto .info p {
+  height: 78%;
+  width: 100%;
 }
 
 .div1, .div2 {
@@ -355,6 +363,25 @@ footer section {
   }
   main .section-article article {
     font-size: 12px;
+  }
+  .main-contacto {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .main-contacto section {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .main-contacto .redes {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: start;
+  }
+  .main-contacto .info {
+    border-radius: 50px 50px 50px 50px;
+    align-self: start;
+    height: 60%;
   }
 }
 @media (max-width: 452px) {
