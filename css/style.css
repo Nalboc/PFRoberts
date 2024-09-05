@@ -241,19 +241,13 @@ footer section {
   flex-direction: row;
   gap: 10px;
 }
-.main-contacto .redes .p {
-  font-size: 16px;
-}
 .main-contacto .info {
   background-color: #041026;
   height: 70%;
   border-radius: 50px 0px 0px 50px;
   align-self: center;
   display: block;
-}
-.main-contacto .info p {
-  height: 78%;
-  width: 100%;
+  font-size: 20px;
 }
 
 .div1, .div2 {
@@ -337,6 +331,9 @@ footer section {
   }
   main section div nav a {
     font-size: 1rem;
+  }
+  .main-contacto .info {
+    font-size: 16px;
   }
 }
 @media (max-width: 500px) {
