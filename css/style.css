@@ -178,14 +178,27 @@ footer section {
 }
 
 .main-sobremi {
-  height: 34.375rem;
-  display: flex;
+  height: 51.75vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
   justify-content: center;
 }
 .main-sobremi section {
-  display: block;
-  width: 40%;
-  height: 100%;
+  display: flex;
+  grid-column: 1/2;
+}
+.main-sobremi section:last-child {
+  grid-column: 2/3;
+  flex-direction: column;
+}
+.main-sobremi section:last-child div {
+  text-align: center;
+  height: 50%;
+  width: 60%;
+}
+.main-sobremi section:last-child div p {
+  text-align: justify;
 }
 .main-sobremi section article {
   width: 100%;
@@ -197,13 +210,13 @@ footer section {
   text-align: center;
 }
 .main-sobremi section article img {
-  height: 60%;
-  width: 60%;
+  height: 40%;
+  width: 40%;
   justify-self: start;
 }
 
 .main-contacto {
-  height: 59.1vh;
+  height: 51.75vh;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 30rem);
