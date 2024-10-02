@@ -33,4 +33,11 @@
         grid-row: 2/4;
       }
     }
+    div{
+      background-color: rgba(0, 0, 0, 0.849);
+        width: 5%;
+        height: 100%;
+        grid-column: 2/3;
+        grid-row: 1/9;
+    }
 }

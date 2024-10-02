@@ -1,4 +1,5 @@
 header{
+    background: linear-gradient(to top, #ffffff00, map-get($colores,azul));
     width: 100%;
     @include flex(column,none,center,1.875rem);
     div{

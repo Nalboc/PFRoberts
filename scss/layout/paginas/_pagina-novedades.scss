@@ -1,5 +1,11 @@
 .main-novedades{
-  @include flex(column,center,center,none);
+  @include flex(row,center,center,none);
+  height: 51.75vh;
+  div{
+    background-color:white;
+    width: 10px;
+    height: 106%;
+  }
   article{
     height: 31.25rem;
     width: 60%;
@@ -12,6 +18,10 @@
         grid-column: 1/2;
         align-self: start;
         justify-self: center;
+        &:first-child{
+          grid-row: 3/4;
+          align-self: end;
+        }
       }
       h1, h2{
         color: black;
