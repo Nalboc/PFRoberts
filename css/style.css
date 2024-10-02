@@ -303,6 +303,16 @@ footer section {
   animation-duration: 2000ms;
 }
 
+@media (max-width: 1227px) {
+  .section-article {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    grid-template-rows: repeat(8, 12.5rem);
+  }
+  .section-article div {
+    display: none;
+  }
+}
 @media (max-width: 951px) {
   main {
     height: 50em;
