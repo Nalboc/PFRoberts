@@ -213,6 +213,7 @@ footer section {
 }
 .main-sobremi section:last-child div {
   text-align: center;
+  font-size: 20px;
   height: 50%;
   width: 60%;
 }
@@ -227,6 +228,7 @@ footer section {
   align-items: center;
   gap: none;
   text-align: center;
+  font-size: 20px;
 }
 .main-sobremi section article img {
   height: 40%;
@@ -368,6 +370,15 @@ footer section {
   main section div nav a {
     font-size: 1rem;
   }
+  .main-sobremi section {
+    height: 100%;
+  }
+  .main-sobremi section:last-child div {
+    font-size: 15px;
+  }
+  .main-sobremi section article {
+    font-size: 15px;
+  }
   .main-contacto .info {
     font-size: 16px;
   }
@@ -391,12 +402,9 @@ footer section {
   .div1, .div2 {
     font-size: 26px;
   }
-  .main-sobremi section {
-    width: 66%;
-  }
 }
 @media (max-width: 497px) {
-  main:not(.main-index) {
+  main:not(.main-index, .main-sobremi) {
     width: 300px;
     align-self: center;
   }
@@ -405,6 +413,18 @@ footer section {
   }
   main .section-article article {
     font-size: 12px;
+  }
+  .main-sobremi section:last-child div {
+    font-size: 13px;
+    width: 90%;
+  }
+  .main-sobremi section article {
+    height: 100%;
+    font-size: 13px;
+  }
+  .main-sobremi section article img {
+    height: 40%;
+    width: 80%;
   }
   .main-contacto {
     display: grid;
@@ -443,6 +463,9 @@ footer section {
 @media (max-width: 341px) {
   .main-index {
     height: 25em;
+  }
+  .main-sobremi section article img {
+    height: 30%;
   }
   main section {
     height: 100%;

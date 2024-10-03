@@ -1,5 +1,5 @@
 @media(max-width:497px){
-  main:not(.main-index){
+  main:not(.main-index,.main-sobremi){
     width: 300px;
     align-self: center;
   }
@@ -10,6 +10,24 @@
     .section-article{
       article{
         font-size: 12px;
+      }
+    }
+  }
+  .main-sobremi{
+    section{
+      &:last-child{
+        div{
+          font-size: 13px;
+          width: 90%;
+        }
+      }
+      article{
+        height: 100%;
+        font-size: 13px;
+        img{
+          height: 40%;
+          width: 80%;
+        }
       }
     }
   }
