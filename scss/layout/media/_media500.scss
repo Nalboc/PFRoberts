@@ -1,7 +1,11 @@
 @media(max-width:500px){
   .main-novedades{
+    .divisor{
+      display: none;
+    }
+    flex-direction: column;
     article{
-      width: 50%;
+      width: 70%;
       h1,h2{
         font-size: 15px;
       }

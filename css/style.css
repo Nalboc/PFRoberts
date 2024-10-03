@@ -185,6 +185,7 @@ footer section {
   grid-column: 1/2;
   align-self: start;
   justify-self: center;
+  text-align: center;
 }
 .main-novedades article:nth-child(2) {
   grid-template-columns: 1fr;
@@ -372,8 +373,14 @@ footer section {
   }
 }
 @media (max-width: 500px) {
+  .main-novedades {
+    flex-direction: column;
+  }
+  .main-novedades .divisor {
+    display: none;
+  }
   .main-novedades article {
-    width: 50%;
+    width: 70%;
   }
   .main-novedades article h1, .main-novedades article h2 {
     font-size: 15px;

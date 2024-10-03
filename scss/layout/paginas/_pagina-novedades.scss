@@ -37,6 +37,7 @@
         grid-column: 1/2;
         align-self: start;
         justify-self: center;
+        text-align: center;
       }
     &:nth-child(2){
       grid-template-columns:1fr;
