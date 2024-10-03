@@ -359,6 +359,12 @@ footer section {
     font-size: 30px;
     border-radius: 3.125rem 3.125rem 3.125rem 3.125rem;
   }
+  .main-contacto .info {
+    font-size: 18px;
+  }
+  .main-contacto .redes {
+    width: 500px;
+  }
 }
 @media (max-width: 729px) {
   main section {
@@ -381,6 +387,9 @@ footer section {
   }
   .main-contacto .info {
     font-size: 16px;
+  }
+  .main-contacto .redes {
+    width: 350px;
   }
 }
 @media (max-width: 500px) {
@@ -443,7 +452,8 @@ footer section {
   .main-contacto .info {
     border-radius: 50px 50px 50px 50px;
     align-self: start;
-    height: 60%;
+    height: 100%;
+    font-size: 15px;
   }
 }
 @media (max-width: 452px) {
@@ -458,6 +468,15 @@ footer section {
   }
   header div nav a {
     font-size: 0.75rem;
+  }
+  .main-contacto .info {
+    font-size: 14px;
+    width: 90%;
+    display: flex;
+    justify-self: center;
+  }
+  .main-contacto .redes {
+    width: 250px;
   }
 }
 @media (max-width: 341px) {
