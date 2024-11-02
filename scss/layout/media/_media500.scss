@@ -1,20 +1,21 @@
-@media(max-width:500px){
-  .main-novedades{
-    .divisor{
+@media (max-width: 500px) {
+  .main-novedades {
+    .divisor {
       display: none;
     }
     flex-direction: column;
-    article{
+    article {
       width: 70%;
-      h1,h2{
+      h1,
+      h2 {
         font-size: 15px;
       }
-      p{
+      p {
         font-size: 10px;
       }
     }
   }
-  .div1{
+  .div1 {
     font-size: 26px;
   }
 }

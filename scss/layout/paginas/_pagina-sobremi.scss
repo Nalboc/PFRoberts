@@ -1,33 +1,33 @@
-.main-sobremi{
+.main-sobremi {
   height: 51.75vh;
-  @include grid(repeat(2,1fr),1fr);
+  @include grid(repeat(2, 1fr), 1fr);
   justify-content: center;
-  section{
+  section {
     display: flex;
     grid-column: 1/2;
-    &:last-child{
+    &:last-child {
       grid-column: 2/3;
       flex-direction: column;
-      div{
+      div {
         text-align: center;
         font-size: 20px;
         height: 50%;
         width: 60%;
-        p{
+        p {
           text-align: justify;
         }
       }
     }
-    article{
+    article {
       width: 100%;
-      @include flex(column,center,center,none);
+      @include flex(column, center, center, none);
       text-align: center;
       font-size: 20px;
-      img{
-        height: 40%;
-        width: 40%;
+      img {
+        height: 100%;
+        width: 100%;
         justify-self: start;
       }
     }
-  } 
+  }
 }

@@ -231,8 +231,8 @@ footer section {
   font-size: 20px;
 }
 .main-sobremi section article img {
-  height: 40%;
-  width: 40%;
+  height: 100%;
+  width: 100%;
   justify-self: start;
 }
 
@@ -315,6 +315,9 @@ footer section {
   .section-article div {
     display: none;
   }
+  .main-sobremi section article img {
+    height: 80%;
+  }
 }
 @media (max-width: 951px) {
   main {
@@ -365,6 +368,9 @@ footer section {
   .main-contacto .redes {
     width: 500px;
   }
+  .main-sobremi section article img {
+    height: 65%;
+  }
 }
 @media (max-width: 729px) {
   main section {
@@ -385,6 +391,9 @@ footer section {
   .main-sobremi section article {
     font-size: 15px;
   }
+  .main-sobremi section article img {
+    height: 50%;
+  }
   .main-contacto .info {
     font-size: 16px;
   }
@@ -402,7 +411,8 @@ footer section {
   .main-novedades article {
     width: 70%;
   }
-  .main-novedades article h1, .main-novedades article h2 {
+  .main-novedades article h1,
+  .main-novedades article h2 {
     font-size: 15px;
   }
   .main-novedades article p {
@@ -433,7 +443,7 @@ footer section {
   }
   .main-sobremi section article img {
     height: 40%;
-    width: 80%;
+    width: 100%;
   }
   .main-contacto {
     display: grid;
@@ -478,13 +488,16 @@ footer section {
   .main-contacto .redes {
     width: 250px;
   }
+  .main-sobremi section article img {
+    height: 30%;
+  }
 }
 @media (max-width: 341px) {
   .main-index {
     height: 25em;
   }
   .main-sobremi section article img {
-    height: 30%;
+    height: 25%;
   }
   main section {
     height: 100%;

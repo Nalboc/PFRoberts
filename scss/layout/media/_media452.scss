@@ -1,31 +1,40 @@
-@media(max-width:452px){
-  main{
+@media (max-width: 452px) {
+  main {
     height: 45em;
-    section{
+    section {
       height: 70%;
-      div{
-        font-size: .9375rem;
+      div {
+        font-size: 0.9375rem;
       }
     }
   }
-  header{
-    div{
-      nav{
-        a{
-          font-size: .75rem;
+  header {
+    div {
+      nav {
+        a {
+          font-size: 0.75rem;
         }
       }
     }
   }
-  .main-contacto{
-    .info{
+  .main-contacto {
+    .info {
       font-size: 14px;
       width: 90%;
       display: flex;
       justify-self: center;
     }
-    .redes{
+    .redes {
       width: 250px;
+    }
+  }
+  .main-sobremi {
+    section {
+      article {
+        img {
+          height: 30%;
+        }
+      }
     }
   }
 }

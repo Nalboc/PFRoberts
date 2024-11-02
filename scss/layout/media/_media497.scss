@@ -1,48 +1,48 @@
-@media(max-width:497px){
-  main:not(.main-index,.main-sobremi){
+@media (max-width: 497px) {
+  main:not(.main-index, .main-sobremi) {
     width: 300px;
     align-self: center;
   }
-  main{
-      .section-article{
-        width: 100%;
+  main {
+    .section-article {
+      width: 100%;
     }
-    .section-article{
-      article{
+    .section-article {
+      article {
         font-size: 12px;
       }
     }
   }
-  .main-sobremi{
-    section{
-      &:last-child{
-        div{
+  .main-sobremi {
+    section {
+      &:last-child {
+        div {
           font-size: 13px;
           width: 90%;
         }
       }
-      article{
+      article {
         height: 100%;
         font-size: 13px;
-        img{
+        img {
           height: 40%;
-          width: 80%;
+          width: 100%;
         }
       }
     }
   }
-  .main-contacto{
-    @include grid(1fr,1fr 1fr);
-    section{
+  .main-contacto {
+    @include grid(1fr, 1fr 1fr);
+    section {
       grid-column: 1/2;
       grid-row: 1/2;
     }
-    .redes{
+    .redes {
       grid-column: 1/2;
       grid-row: 2/3;
       align-self: start;
     }
-    .info{
+    .info {
       border-radius: 50px 50px 50px 50px;
       align-self: start;
       height: 100%;

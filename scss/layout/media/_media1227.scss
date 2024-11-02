@@ -1,8 +1,17 @@
-@media(max-width:1227px){
-    .section-article{
-        @include grid(1fr 1px 1fr,repeat(8,12.5rem));
-        div{
-            display: none;
-        }
+@media (max-width: 1227px) {
+  .section-article {
+    @include grid(1fr 1px 1fr, repeat(8, 12.5rem));
+    div {
+      display: none;
     }
+  }
+  .main-sobremi {
+    section {
+      article {
+        img {
+          height: 80%;
+        }
+      }
+    }
+  }
 }
